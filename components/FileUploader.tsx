@@ -63,6 +63,7 @@ function FileUploader() {
     [StatusText.GENERATING]: (
       <HammerIcon className="h-20 w-20 text-orange-600 animate-bounce" />
     ),
+    [StatusText.FAILED]: <div className="h-20 w-20 text-red-600">Failed</div>,
   };
 
   const { getRootProps, getInputProps, isDragActive, isFocused, isDragAccept } =
