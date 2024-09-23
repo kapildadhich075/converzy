@@ -126,9 +126,9 @@ function ConfigForm() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>PaperPal Powered by OpenAI</SheetTitle>
+          <SheetTitle>Converzy Powered by TLR</SheetTitle>
           <SheetDescription>
-            PaperPal leverages the capabilities of OpenAI to bring you
+            Converzy leverages the capabilities of OpenAI & Gemini to bring you
             cutting-edge features.
           </SheetDescription>
         </SheetHeader>
@@ -142,6 +142,14 @@ function ConfigForm() {
                 <h3 className="mb-4 text-sm font-medium">
                   You have two options to access our services:
                 </h3>
+
+                <p className="text-sm text-gray-600 my-5">
+                  <span>
+                    <strong>Note: </strong>
+                  </span>
+                  Use our Gemini Model right away other models are in the
+                  process of being integrated.
+                </p>
                 <div className="space-y-4">
                   <FormField
                     control={form.control}

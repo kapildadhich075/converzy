@@ -4,12 +4,22 @@ import { Button } from "./ui/button";
 import { FilePlus2 } from "lucide-react";
 import UpgradeButton from "./UpgradeButton";
 import ConfigForm from "./ConfigForm";
+import Image from "next/image";
 
 function Header() {
   return (
     <div className="flex justify-between bg-white shadow-sm p-5 border-b">
-      <Link href="/dashboard" className="text-2xl">
-        Chat to <span className="text-orange-600">PDF</span>
+      <Link href="/dashboard" className="text-2xl flex gap-2 items-center">
+        Converzy by{" "}
+        <Image
+          src="https://ik.imagekit.io/umdiwr6ma/tlr%20logo.png?updatedAt=1706964634422"
+          alt="Converzy Logo"
+          width={50}
+          height={50}
+          className="cursor-pointer object-contain
+            bg-orange-600 rounded-full p-2
+          "
+        />
       </Link>
 
       <SignedIn>

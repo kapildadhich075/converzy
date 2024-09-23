@@ -66,14 +66,12 @@ export default function Home() {
 
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Introducing{" "}
-              <span className="font-bold text-orange-600">Chat with PDF.</span>
+              <span className="font-bold text-orange-600">Converzy</span>
               <br />
               <br /> Upload your document, and our chatbot will answer
               questions, summarize content, and answer all your Qs. Ideal for
-              everyone, <span className="text-orange-600">
-                Chat with PDF
-              </span>{" "}
-              turns static documents into{" "}
+              everyone, <span className="text-orange-600">Converzy</span> turns
+              static documents into{" "}
               <span className="font-bold">dynamic conversations</span>,
               enhancing productivity 10x fold effortlessly.
             </p>
@@ -88,7 +86,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <Image
               alt="App screenshot"
-              src="https://i.imgur.com/VciRSTI.jpeg"
+              src="https://ik.imagekit.io/umdiwr6ma/Screenshot%202024-09-24%20at%201.20.21%E2%80%AFAM.png?updatedAt=1727121170680"
               width={2432}
               height={1442}
               className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
