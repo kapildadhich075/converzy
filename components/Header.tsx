@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { FilePlus2 } from "lucide-react";
 import UpgradeButton from "./UpgradeButton";
+import ConfigForm from "./ConfigForm";
 
 function Header() {
   return (
@@ -29,6 +30,8 @@ function Header() {
 
           <UpgradeButton />
           <UserButton />
+
+          <ConfigForm />
         </div>
       </SignedIn>
     </div>

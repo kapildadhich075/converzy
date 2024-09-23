@@ -23,7 +23,7 @@ import {
 } from "@langchain/google-genai";
 import { adminDb } from "@/firebaseAdmin";
 
-export const indexName = "papafam";
+export const indexName = "kdcon";
 
 // remove this one since we are going to pass the model from others functions
 // const model = new ChatOpenAi({
